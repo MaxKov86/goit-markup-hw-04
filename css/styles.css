@@ -360,7 +360,8 @@ button:focus {
   align-items: center;
 }
 
-.team-social-link:hover {
+.team-social-link:hover,
+.team-social-link:focus {
   background-color: var(--hover-color);
   color: var(--icon-hover-color);
 }
@@ -520,7 +521,8 @@ button:focus {
   fill: currentColor;
 }
 
-.footer-social-link:hover {
+.footer-social-link:hover,
+.footer-social-link:focus {
   background-color: var(--hover-color);
 }
 
